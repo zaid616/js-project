@@ -86,22 +86,7 @@ function bt1() {
 
 function clearA() {
     document.getElementById("value1").value = ""
-    Toastify({
-        text: "input is clear now.",
-        duration: 3000,
-        // destination: "https://github.com/apvarun/toastify-js",
-        // newWindow: true,
-        // close: true,
-        gravity: "top", // `top` or `bottom`
-        position: "center", // `left`, `center` or `right`
-        stopOnFocus: true, // Prevents dismissing of toast on hover
-        style: {
-            background: "linear-gradient(to right, #00b09b, #0b0062)",
-
-        },
-        // onClick: function(){} // Callback after click
-    }).showToast();
-    return
+ alert("input is clear now.")
 
     
 }
