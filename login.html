@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 13 || part-1</title>
+    <!-- tostify -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css
+   ">
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="container p-3 text-white">
+            <div class="div1">
+                <span>Home Page</span>
+                &ensp;
+                <span></span>
+            </div>
+            <div class="div2">
+                <form class="form">
+                    <input type="text" placeholder=" Search" id="name" name="search" style="border-radius: 5px;">&ensp;
+                    <label for="name"
+                        style="border: 1px solid green; border-radius: 5px; color: green;">&ensp;Search&ensp;</label>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+
+
+
+
+
+
+
+
+
+    <br>
+    <main class="container">
+        <br>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col col-12 col-lg-6 col-md-6 text-center">
+                <h3>Input</h3>
+                <div class="container-fluid border border-secondary  rounded" id="div1">
+                    <br>
+                    <nav class="navbar bg-body-tertiary">
+                        <form class="container">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Type your text here"
+                                    aria-label="Username" aria-describedby="basic-addon1" id="value1">
+                                <button class="input-group-text"
+                                    style="background-color: rgb(220, 214, 214); width: fit-content; "
+                                    >Clear</button>
+                            </div>
+                        </form>
+                    </nav>
+                    <br>
+                </div>
+                <br>
+                <br>
+                <h3>Button</h3>
+                <div class="container border border-secondary p-3 rounded" id="div2">
+                    <button type="button" class="btn btn-danger m-1" onclick="bt1()">Add your city in list.</button>
+ 
+                </div>
+            </div>
+
+
+            <div class="col col-12 col-lg-6 col-md-6 text-center">
+                <h3>Original Statement</h3>
+                <div class="container-fluid border border-secondary  rounded" id="div3">
+                    <h1></h1>
+                </div>
+                <div>
+                    <br>
+                    <br>
+                    <h3>Output/Result</h3>
+                    <div class="container border border-secondary  rounded text-center" id="div4">
+                    </div>
+                    <br>
+                    <button type="button" class="btn btn-secondary" onclick="clearB()">Clear Output</button>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <br>
+    <br>
+
+    <footer class="container-fluid p-3 text-center text-white" style="font-family: 'Times New Roman', Times, serif;">
+        &copy; 2023 | Assignments By Muhammad Zaid.
+    </footer>
+
+    <script src="./js/login.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+        background-image: url(../Assets/images/image.jpg);
+        background-size: cover;
+        /* display: flex;
+        flex-direction: column; */
+}
+/* main{
+    flex: 1 0 auto;
+} */
+
+
+#border{
+    width: 50%;
+   background: linear-gradient(to bottom, #01274e 0%, #0000cc 100%);
+   border-radius: 1rem;
+   margin-top: 13vh;
+   
+}
+#username{
+    height: 3rem;
+   
+    background: rgb(59,109,171);
+    background: linear-gradient(90deg, rgba(59,109,171,1) 21%, rgba(95,168,244,1) 100%);
+}
+
+#username::placeholder{
+    color: white;
+}
+
+#email{
+    height: 3rem;
+  
+    background: rgb(59,109,171);
+    background: linear-gradient(90deg, rgba(59,109,171,1) 21%, rgba(95,168,244,1) 100%);
+
+}
+
+#email::placeholder{
+    color: white;
+}
+#password{
+    height: 3rem;
+
+    background: rgb(59,109,171);
+    background: linear-gradient(90deg, rgba(59,109,171,1) 21%, rgba(95,168,244,1) 100%);
+
+}
+#password::placeholder{
+        color: white;
+ }
+
+
+ @media only screen and (max-width: 769px){
+   #border{
+    width: 80%;
+   }
+   
+    
+}
